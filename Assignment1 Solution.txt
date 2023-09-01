@@ -1,0 +1,22 @@
+Question :Write a program that takes 2 inputs from the user in variable a and b.Based on these inputs find the output of following expressions:
+1. Floor Division
+2. a power b
+3. Find out whether two variables have equal value or not - if yes then print True if they are not equal then print False
+
+ANSWER
+
+a=int(input("Enter a :"))
+b=int(input("Enter b :"))
+
+#Floor Division
+f=a//b
+#a power ba power b
+p=a**b
+print("Floor Division =",f)
+print("a power b =",p)
+
+if a==b:
+	print("True")
+else:
+	print("False")
+
